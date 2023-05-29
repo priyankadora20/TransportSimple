@@ -1,0 +1,84 @@
+#benefit{
+    margin:auto;
+  padding: 90px;
+  width:90%
+}
+
+#benefit-h{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 90px;
+}
+
+#benefit-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#benefit-d-d{
+border: 1px solid transparent;
+text-align: center;
+margin: auto;
+align-items: center;
+}
+
+#benefit-d-d >img{
+    width:250px;
+}
+
+#benefit-d-d>h3 {
+    font-weight: bold;
+        font-size: 15px;
+        color: rgb(72, 72, 72);
+        padding: 20px;
+}
+
+
+
+
+#investor{
+  
+    margin: auto;
+        padding: 60px;
+        background-color: aliceblue;
+}
+#investor-cont{
+    margin: auto;
+width: 90%;
+}
+#investor-cont-h{
+  
+     font-weight: bold;
+        font-size: 30px;
+ text-align: center;
+        padding: 20px;
+            padding-bottom: 20px;
+}
+
+#investor-cont-h-d{
+    padding-top: 20px;
+        display: grid;
+            grid-template-columns: repeat(4, 1fr);
+}
+
+#investor-cont-h-d >img{
+    width: 95%;
+}
+
+#mentor{
+    margin: auto;
+        padding: 90px;
+}
+#mentor-cont-h-d{
+    margin: auto;
+   width:60%;
+    border:1px solid;
+  
+}
+#mentor-cont-h-d {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

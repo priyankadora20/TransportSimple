@@ -1,0 +1,70 @@
+#steps{
+margin: auto;
+width:100%;
+text-align: center;
+padding-top: 80px;
+
+
+}
+#threestepss-heading{
+    padding-bottom: 50px;
+}
+
+#threestepss{
+    font-size:30px;
+    font-weight: bold;
+
+}
+#underlines{
+   width:30%; 
+   border:2px solid rgb(0, 140, 247);
+  margin: auto;
+}
+#nocircle{
+    width:50px; 
+    height:50px;
+    padding: 10px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: orange;
+    margin:auto;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+#transimg{
+    margin: auto;
+    width:50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: orange;
+}
+
+#stepbox-cont{
+    padding: 30px;
+    margin: auto;
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+}
+
+#stepbox{
+   align-items: center;
+    padding: 20px;
+    margin:auto;
+    width:92%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#nocircleh{
+    font-weight: bold;
+}
+
+#stepbox:hover{
+    transform: scaleY(1.1);
+}
